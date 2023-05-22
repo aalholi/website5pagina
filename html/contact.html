@@ -60,7 +60,7 @@ a{
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
-    top: 0;
+    top: 50;
 }
 .dot {
     cursor: pointer;
@@ -96,8 +96,8 @@ a{
                     <li><a href="/html/index.html">Home</a></li>
                     <li><a href="/html/overons.html">Over Ons</a></li>
                     <li><a href="/html/potifolio.html">Portifolio</a></li>
-                    <li><a href="#prijzen">Prijzen</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="/html/prijzen.html">Prijzen</a></li>
+                    <li><a href="/html/contact.html">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -134,10 +134,23 @@ a{
        <div class="contact">
         <div class="contact_info">
             <p>Email: test@testcom <br> Telefoon: +324000000000</p>
-            
+            <a href="#"><img src="/foto/insta.png" alt=""></a>
+            <a href="#"><img src="/foto/faceb.jpg" alt=""></a>
+            <a href="#"><img src="/foto/twit.jpg" alt=""></a>
         </div>
         <div class="form">
+    <form action="mailto:aalholi@handelsschoolaalst.be" method="post" enctype="text/plain">
+        <label for="voornaam">Voornaam</label>  <label for="achternaam" style="margin-left: 28%;">Achternaam</label><br>
+        <input type="text" name="voornaam" placeholder="Awni" required>
+        <input type="text" name="achternaam" placeholder="Alholi" required> <br><br>
+        <label for="email">Email</label>  <label for="telefoon" style="margin-left: 28%;">Telefoon</label><br>
+        <input type="email" name="email" placeholder="test@gmail.com" required>
+        <input type="text" name="telefoon" placeholder="VB. +3247656456" required> <br> <br>
+        <label for="input">Bericht</label> <br>
+       <textarea name="bericht" id="" cols="30" rows="10"  placeholder="schrijf iets naar ons"  required></textarea> 
+       <button type="submit" class="button">Verzend</button>
 
+    </form>
         </div>
        </div>
         <script>let slideIndex = 1;
