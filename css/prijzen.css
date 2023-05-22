@@ -1,0 +1,110 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    width: 36%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+
+}
+
+.lijn {
+    height: 5px;
+    width: 36%;
+    background-color: #000;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.wrapper_prijs {
+    width: 90%;
+    height: 47rem;
+    margin: 0 auto;
+}
+
+.prijs1 {
+    width: 25%;
+    background-color: #CBC7C7;
+    height: 20rem;
+    border-radius: 7px;
+    color: #fff;
+    float: left;
+    margin-right: 12.5%;
+}
+
+.wrapper_prijs ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+.wrapper_prijs li {
+    display: block;
+    margin-top: 20px;
+    margin-left: 70px;
+
+}
+
+.wrapper_prijs li img {
+    margin-right: 5px;
+    width: 15px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.prijs1>h3 {
+    padding-top: 10px;
+}
+
+.prijs2 {
+    width: 25%;
+    background-color: #CBC7C7;
+    height: 27rem;
+    border-radius: 7px;
+    color: #fff;
+    float: left;
+    margin-right: 12.5%;
+    
+}
+.prijs{
+    margin-bottom: 3rem;
+}
+.prijs2>h3 {
+    padding-top: 10px;
+    
+}
+.button {
+    padding: 2% 20%;
+    background-color: #D21C1C;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20%;
+}
+
+.button:hover {
+    background-color: #9c0909;
+}
+.prijs3 {
+    width: 25%;
+    background-color: #CBC7C7;
+    height: 30rem;
+    border-radius: 7px;
+    color: #fff;
+    float: left;
+    
+}
+.prijs{
+    margin-bottom: 3rem;
+}
+.prijs2>h3 {
+    padding-top: 10px;
+    
+}
